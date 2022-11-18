@@ -1,0 +1,21 @@
+body {
+    background-image: url(./img/—Pngtree—simple\ flat\ album\ cover_1118735.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .image-container {
+    text-align: center;
+    width: 100%;
+  }
+
+ 
