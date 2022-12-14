@@ -1,0 +1,44 @@
+.logoAbout {
+    width:100px;
+    margin-top: 150px; 
+    margin-bottom: -170px; 
+    position: relative;
+}
+
+
+@media only screen and (max-width:768px) {
+    .logoAbout {
+        width:100px;
+        margin-top: 180px; 
+        margin-bottom: -80px; 
+        position: relative;
+}
+}
+
+
+
+
+@media only screen and (max-width:1200px) {
+    .logoAbout {
+        margin-top: 190px; 
+        margin-bottom: -170px; 
+        
+}
+}
+
+
+
+
+@media only screen and (max-width:990px) {
+    .logoAbout {
+        width:100px;
+        margin-top: 190px; 
+        margin-bottom: -130px; 
+        position: relative;
+}
+}
+
+
+
+
+

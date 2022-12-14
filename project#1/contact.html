@@ -58,6 +58,28 @@
   <div class="container bg-light" style="margin-top: 10%;margin-bottom: 10%; padding:4%;border-radius:8px;">
 
     <form>
+
+     <div class="input-group">
+      <input type="text" class="form-control"  placeholder="Enter your e-mail">
+      <span class="input-group-text">@gmail.com</span>
+      <br>
+
+     </div>
+
+     <div>
+
+      <label for="browser" class="form-label">Choose your browser from the list :</label>
+      <input class="form-control" list="browsers" name="browser" id="browser">
+      <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+      </datalist>
+     </div>
+
+
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
