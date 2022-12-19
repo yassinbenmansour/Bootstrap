@@ -76,26 +76,42 @@
 
 
 
-<div class="container bg-dark text-white mt-5 p-5">
+<div class="container text-dark pt-5   " style="margin-top:10%;">
 
   <form action="">
-    <label for="" class="form-label">Email :</label>
-    <input type="text" class="form-control" placeholder="E-mail..........">
-
-
-
-    <label for="" class="form-label">Passwoed :</label>
-    <input type="password" class="form-control" placeholder="Password..........">
-
-
-    <div class="form-check">
-      <label for="" class="form-check-label">
-        <input type="checkbox" class="form-check-input">Remember me
-      </label>
-
+    
+    <div class="row">
+      <div class="col">
+        <label for="fname" class="form-label">First name :</label>
+        <input type="text" class="form-control" name="fname" placeholder="Enter your firstname..." pattern="\w{6,12}" required>
+      </div>
+      <div class="col">
+        <label for="lname" class="form-label">Last name :</label>
+        <input type="text" class="form-control" name="lsname" placeholder="Enter your lastname..." pattern="\w{6,12}" required>
+      </div>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <div class="row">
+      <div class="col">
+        <label for="fname" class="form-label">Email :</label>
+        <input type="email" class="form-control" name="mail" placeholder="Enter your e-mail..." required>
+       
+      </div>
+      <div class="col">
+        <label for="nbr" class="form-label">Phone :</label>
+        <input type="tel" class="form-control" name="nbr" placeholder="Enter your Number..." required>
+      </div>
+    </div>
 
+    <div>
+      <label for="comment">Message :</label>
+      <textarea rows="10" class="form-control" id="comment" name="cmt" placeholder="Comment..." required></textarea>
+    </div>
+
+    
+    <button type="submit" class="btn btn-primary  btn-lg mt-2 float-end">Submit</button>
+
+   
+    
   </form>
 
 </div>
